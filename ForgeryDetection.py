@@ -3,6 +3,8 @@ import numpy as np
 import cv2
 
 
+
+
 class Detect(object):
     def __init__(self, input):
         self.image = cv2.imread(input)
